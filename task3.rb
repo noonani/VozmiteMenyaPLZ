@@ -1,4 +1,4 @@
-#checking version
+#final version
 a = ARGV[0].to_i
 b = ARGV[1].to_i
 s = a+b
@@ -28,29 +28,24 @@ elsif (s != 0)
 else 
 	ss = 0
 end
-
 if (ss != 0) and (mm != 0) and (hh != 0)
 	puts (hh + " " + mm + " " + ss)
 end
-
 if (ss != 0) and (mm == 0) and (hh == 0)
 	puts (ss)
 end
-
 if (ss == 0) and (mm != 0) and (hh == 0)
 	puts (mm)
 end
-
 if (ss == 0) and (mm == 0) and (hh != 0)
 	puts (hh)
 end
-
 if (ss != 0) and (mm != 0) and (hh == 0)
 	puts (mm + " " + ss)
 end
-
 if (ss != 0) and (mm == 0) and (hh != 0)
 	puts (hh + " " + ss)
 end
-
-puts (hh + " " + mm)
+if (ss == 0) and (mm != 0) and (hh != 0)
+	puts (hh + " " + mm)
+end
