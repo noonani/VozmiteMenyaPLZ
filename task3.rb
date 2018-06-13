@@ -53,6 +53,4 @@ if (ss != 0) and (mm == 0) and (hh != 0)
 	puts (hh + " " + ss)
 end
 
-if (ss == 0) and (mm != 0) and (hh != 0)
-	puts (hh + " " + mm)
-end
+puts (hh + " " + mm)
